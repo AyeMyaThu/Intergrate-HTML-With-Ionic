@@ -1,0 +1,21 @@
+<ion-modal-view>
+  <ion-content>
+  	<div class="text-center login-block">
+  		<form ng-submit="doLogin()">
+	      <div class="list">
+	        <label class="item item-input">
+	          <input type="email" placeholder="Email address"/>
+	        </label>
+	        <label class="item item-input">
+	          <input type="password" placeholder="Password"/>
+	        </label>
+	        <a ui-sref="app.change-password">Forgot Password ?</a>
+	        <a>Don’t have an account ?</a>
+	        <label class="item">
+	          <button class="button button-block button-positive" type="submit">Login</button>
+	        </label>
+	      </div>
+	    </form>
+  	</div>    
+  </ion-content>
+</ion-modal-view>
